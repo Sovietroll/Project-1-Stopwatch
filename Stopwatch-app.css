@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(21, 21, 21);
+}
+
+.title {
+  color: white;
+  top: 32%;
+  position: absolute;
+  font-size: 25px;
+  font-family: arial;
+}
+
+.container {
+  display: flex;
+  color: white;
+  border-width: 0.5px;
+  border-radius: 10px;
+  padding: 100px 20px;
+  border-color: white;
+  border-style: solid
+  
+}
+
+.container-inside {
+display: flex;
+margin-bottom: 90px;
+}  
+.hours, .minutes, .seconds, .count {
+font-size: 50px;
+display: inline-block;
+}
+
+.minutes-2, .seconds-2, .hours-2 {
+display: inline-block;
+padding-top:35%;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 30%;
+}
+
+.start-button{
+  cursor: pointer;
+  border: none;
+  border-radius: 100%;
+  width: 85px;
+  height: 85px;
+  font-size: 20px;
+  background-color: rgb(12, 92, 12);
+  color: rgb(219, 254, 219);
+}
+.reset-button {
+  cursor: pointer;
+  border: none;
+  border-radius: 100%;
+  width: 85px;
+  height: 85px;
+  font-size: 20px;
+  background-color: rgb(71, 71, 71);
+  color: rgb(255, 255, 255);
+}
+
+.start-button:hover {
+  background-color: rgb(16, 122, 16);
+}
+
+
+.start-button.resume{
+  background-color:  rgb(71, 71, 71);
+}
+.start-button.reset-green{
+  background-color: rgb(16, 122, 16);
+}
+
+.reset-button.reset-red {
+  background-color: rgb(232, 19, 19);
+} /*reset*/ 
+.reset-button.reset-gray {
+  background-color:  rgb(71, 71, 71);
+}
